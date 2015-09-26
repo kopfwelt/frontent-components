@@ -1,8 +1,11 @@
 {
   "name": "frontend-components",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Collection of frontend stack components",
-  "repository": "https://github.com/kopfwelt/frontend-components",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kopfwelt/frontend-components.git"
+  },
   "author": {
     "name": "Steve Sinnwell",
     "email": "steve@kopfwelt.com"
@@ -12,16 +15,12 @@
     "components",
     "es6"
   ],
-  "scripts": {
-    "bench": "make bench",
-    "test": "make test"
-  },
   "license": "MIT",
   "engines": {
     "node": ">=0.12.0"
   },
   "dependencies": {},
   "devDependencies": {
-    "ration-component": "kopfwelt/form-validated-component"
+    "snapsvg": "^0.4.0"
   }
 }
