@@ -1,0 +1,12 @@
+{
+  "name": "frontend-components",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ration-component": "kopfwelt/form-validated-component"
+  }
+}
