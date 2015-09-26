@@ -1,7 +1,22 @@
 {
   "name": "frontend-components",
   "version": "0.0.1",
-  "private": false,
+  "description": "Collection of frontend stack components",
+  "repository": "https://github.com/kopfwelt/frontend-components",
+  "author": {
+    "name": "Steve Sinnwell",
+    "email": "steve@kopfwelt.com"
+  },
+  "homepage": "http://kopfwelt.com",
+  "keywords": [
+    "components",
+    "es6"
+  ],
+  "scripts": {
+    "bench": "make bench",
+    "test": "make test"
+  },
+  "license": "MIT",
   "engines": {
     "node": ">=0.12.0"
   },
