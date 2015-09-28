@@ -21,6 +21,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "snapsvg": "^0.4.0"
+    "form-validated-component": "kopfwelt/form-validated-component"
   }
 }
